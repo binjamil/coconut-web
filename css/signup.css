@@ -1,0 +1,132 @@
+.bg {
+  background-image: url("../img/signup/bg.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #111111;
+  flex: 1;
+}
+
+.form-control:focus {
+  border: #666 solid 1px;
+  box-shadow: none;
+}
+
+.leftc,
+.leftr {
+  margin-left: -10px;
+}
+
+.logo {
+  margin-left: 25px;
+  margin-bottom: 110px;
+}
+
+.myContent h1 {
+  margin-left: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.myContent h5 {
+  margin-left: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.hide p {
+  margin-left: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+@media (max-width: 770px) {
+  .myContent h1 {
+    font-size: 40px;
+  }
+  .myContent h5 {
+    font: size 20px;
+    margin-bottom: 20px;
+  }
+  .myContent p {
+    margin-top: none;
+  }
+
+  .logo {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hide {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .myContent h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .myContent h5 {
+    font: size 15px;
+    margin-left: 10px;
+  }
+
+  .logo {
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .hide {
+    display: none;
+  }
+}
+
+.login-fb {
+  background-color: #3b5998;
+  margin-bottom: 10px;
+}
+
+.login-fb:hover {
+  background-color: #2f4779;
+}
+
+.hide {
+  margin-top: 46%;
+  margin-bottom: 7.5%;
+  color: white;
+  font-weight: 200%;
+}
+
+.terms {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.or {
+  margin: 30px 0;
+}
+
+.signin {
+  margin: 40px 10% 30px 10%;
+}
+
+.signin h4 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signin h4 {
+  margin-bottom: 20px;
+}
+.signin p {
+  margin-bottom: 35px;
+}
+
+.terms p {
+  font-family: Arial, Helvetica, sans-serif;
+}
